@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="name">
+        <p class="login-para">Login User</p>
+        <label for="fname" class="nametitle">Name : </label>
+        <input type="text" class="nametext" placeholder="Your Good name" #myname />
+        <label for="email" class="nametitle">email : </label>
+        <input type="text" class="nametext" placeholder="abc@gmail.com" #myemail />
+
+
+        <input type="button" id="submit" (click)="userinput(myname.value,myemail.value)" value="Submit">
+
+ </div>
+</div>

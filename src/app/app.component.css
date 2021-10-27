@@ -1,0 +1,158 @@
+body{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width: 1423px;
+    margin: 0;
+    padding: 0;
+}
+
+.row1{
+    width:1423px;
+    height:120px;
+    background-color:orange;
+}
+
+.col1,.col2{
+    width:50%;
+    float:left;
+    height:120px;
+}
+
+#logo{
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    margin-left:20px;
+    margin-top:12px;
+    
+}
+.shop_title{
+    width:50%;
+    float:right;
+    margin-right:176px;
+    margin-top:26px;
+}
+
+.title{
+    font-family:Qahiri;
+    background-color:black;
+    font-size:60px;
+    color:white;
+    padding-top:-20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        to right, 
+        rgb(221, 33, 33),
+        rgb(226, 27, 77)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+li{
+    display:inline-block;
+}
+
+.nav-bar{
+    margin-top: 41px;
+    margin-left:209px;
+}
+
+li a{
+    text-decoration:none;
+    color:white;
+    background:rgb(255, 162, 40);
+    margin-right:10px;
+    font-size:25px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+li a:hover{
+    border:2px solid black;
+}
+
+.list1{
+    color:black;
+}
+
+#btn{
+    background:linear-gradient(to right, #31bea0, #00f1dd);
+    color:black;
+    border:none;
+    border-radius:30px;
+    width:100px;
+    height:40px;
+
+
+}
+
+#btn:hover{
+    background:linear-gradient(to left, #31bea0, #00f1dd);
+    color:white;
+    border:none;
+}
+
+
+.instagram{
+    position:fixed;
+    width:100px;
+    height:100px;
+    z-index: 1;
+    
+}
+
+.insta{
+    width:75px;
+    height:75px;
+    position:fixed;
+    bottom:0%;
+    right:0%;
+    margin-right:0px;
+
+}
+
+.dropdown{
+    display:none;
+    width:160px;
+    height:200px;
+    margin-top:25px;
+    background-color:black;
+}
+
+
+
+.col2 ul li:hover .dropdown{
+    display:block;
+    position:absolute;
+    z-index:2;
+    margin-top:1px;
+    margin-left:-40px;
+}
+
+.col2 ul li:hover .dropdown ul{
+    
+    margin:10px;
+}
+
+.col2 ul li:hover .dropdown ul li{
+    width:120px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:center;
+}
+
+.dropdown ul li{
+    margin-left:-30px;
+}
+ 
+.dropdown ul li a{
+    width:100px;
+    height:180px;
+    background:black;
+    color: orange;
+}

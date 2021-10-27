@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row1">
+      <div class="col1">
+          <a routerLink="home"><img src="../../assets/logo.jpg" id="logo"/></a> 
+          <div class="shop_title">
+            <p class="title">FoodBaba</p>
+          </div> 
+      </div>
+      <div class="col2">
+        <nav class="nav-bar">
+          <ul>
+            <li><a routerLink="location">Location</a></li>|
+             <li><a routerLink="menu">Menu</a>
+                     <div class="dropdown"> 
+                       <ul>
+                         <li><a routerLink="burger" (click)="abc()">BURGER</a></li><br>
+                         <li><a routerLink="pizza" (click)="abd()">PIZZA</a></li><br>
+                         <li><a routerLink="kfc" (click)="abe()">KFC</a></li>
+                       </ul>
+                    </div>
+                    </li>|
+            <li><a href="#" routerLink="register"> <i class="fa fa-sign-in" style="color:white;"></i>Login</a></li>|
+            <li><button type="button" id="btn">Order now</button></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    
+    <div class="instagram">
+      <a href="https://www.instagram.com/foodbaba/?hl=en"><img src="../assets/insta.png" class="insta"/></a>
+    </div>
+     
+
+    </div>
+   
+ 
+
+  <router-outlet></router-outlet>
+ 

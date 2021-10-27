@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="name">
+        <p class="login-para">Register</p>
+        <label for="fname" class="nametitle">Name : </label>
+        <input type="text" class="nametext" placeholder="Your Good name" #myname />
+        <label for="email" class="nametitle">email : </label>
+        <input type="text" class="nametext" placeholder="abc@gmail.com" #myemail />
+
+        <label for="phone" class="nametitle">Phone : </label>
+        <input type="text" class="nametext" placeholder="Your Phonenumber" #myphone />
+
+        
+       <input type="button" id="submit" (click)="register(myname.value,myemail.value)" value="Register"/><br><br>
+
+        <a routerLink="login" class="already_account">Already Have an Account?</a>
+      
+    </div>
+</div>
+

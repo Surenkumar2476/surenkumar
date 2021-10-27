@@ -1,0 +1,27 @@
+
+<div class="cals">
+    <h1 class="types">LOAN CALCULATOR</h1>
+
+    <label>Principle Amount:     </label>
+    <input type="text" placeholder="1,00,000" id="principle" #myamt/><br><br>
+
+    <label>Time in (months):     </label>
+    <input type="text" placeholder="months" id="principle" #mytime/><br><br>
+
+    <label>Rate of Interest:     </label>
+    <input type="text" placeholder="5%" id="roi" value={{myvalue}} #myint/><br><br>
+
+
+    <label>Loan:     </label>
+    <select id="list" value='' >
+        <option value="1" (click)="list(value1.value)"  #value1 >Vehicle 7%</option>
+        <option value="2" #value1>Home 8%</option>
+        <option value="3" >Personal 12%</option>
+        <option value="4" >Education 10%</option>
+       
+    </select><br><br>
+
+    <input type="button" id="calculate" value="calculate" (click)="calculate(myamt.value,mytime.value,myint.value)"/>
+    <p class="output">{{output}}</p>
+
+</div>

@@ -1,0 +1,16 @@
+.carousel-inner{
+    width:100%;
+    height:686px;
+}
+
+.carousel slide{
+    z-index: -1;
+}
+
+.row2{
+    z-index: -1;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    z-index: -1;
+}
